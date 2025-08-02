@@ -40,7 +40,7 @@ export function Logo({ className = "h-8 w-8", showText = true }: LogoProps) {
       {showText && (
         <div className="flex flex-col">
           <span className="text-xl font-bold gradient-text">BRAVOS</span>
-          <span className="text-xs font-medium text-gray-600 dark:text-gray-400 -mt-1">AUTOMATION</span>
+          <span className="text-xs font-medium text-gray-600 dark:text-gray-400 -mt-1">AUTOMATIONS</span>
         </div>
       )}
     </div>
