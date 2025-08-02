@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-8 lg:px-8">
         <div className="text-center">
           <p className="text-sm text-gray-600 dark:text-gray-400">
-            © 2025 Bravos Automation, Inc. All rights reserved.
+            © 2025 Bravos Automations, Inc. All rights reserved.
           </p>
         </div>
       </div>
