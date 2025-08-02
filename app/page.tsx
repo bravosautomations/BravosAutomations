@@ -52,3 +52,22 @@ const stats = [
 ]
 
 const testimonials = [
+  {
+    content: "Bravos Automation revolutionized our customer service operations. Response times dropped from 24 hours to under 2 hours, and customer satisfaction scores increased by 40%.",
+    author: "David Kim",
+    role: "Director of Operations, GlobalRetail",
+    rating: 5,
+  },
+  {
+    content: "The intelligent automation platform exceeded our expectations. We automated 200+ processes in just 3 months, saving our team over 15,000 hours annually.",
+    author: "Lisa Thompson",
+    role: "VP of Technology, FinServ Solutions",
+    rating: 5,
+  },
+  {
+    content: "Bravos helped us scale our operations without hiring additional staff. The ROI was immediate - we saw a 300% increase in processing capacity within the first quarter.",
+    author: "Marcus Johnson",
+    role: "CEO, ScaleUp Ventures",
+    rating: 5,
+  },
+]
