@@ -10,17 +10,17 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Bravos Automation - Intelligent Process Automation',
-  description: 'Transform your business with AI-powered automation solutions. Streamline workflows, reduce costs, and boost productivity with Bravos Automation.',
-  keywords: 'automation, AI, process automation, workflow automation, business automation, RPA',
-  authors: [{ name: 'Bravos Automation' }],
-  creator: 'Bravos Automation',
+  description: 'Transform your business with AI-powered automation solutions. Streamline workflows, reduce costs, and boost productivity with Bravos Automations.',
+  keywords: 'automation, AI, process automations, workflow automation, business automation, RPA',
+  authors: [{ name: 'Bravos Automations' }],
+  creator: 'Bravos Automations',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://bravosautomation.io',
+    url: 'https://bravosautomations.io',
     title: 'Bravos Automation - Intelligent Process Automation',
     description: 'Transform your business with AI-powered automation solutions.',
-    siteName: 'Bravos Automation',
+    siteName: 'Bravos Automations',
   },
   twitter: {
     card: 'summary_large_image',
