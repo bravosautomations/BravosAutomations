@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    name: 'AI-Powered Automation',
+    name: 'AI-Powered Automations',
     description: 'Leverage advanced machine learning to automate complex business processes with unprecedented accuracy.',
     icon: Brain,
   },
@@ -60,7 +60,7 @@ const stats = [
 
 const testimonials = [
   {
-    content: "Bravos Automation revolutionized our customer service operations. Response times dropped from 24 hours to under 2 hours, and customer satisfaction scores increased by 40%.",
+    content: "Bravos Automations revolutionized our customer service operations. Response times dropped from 24 hours to under 2 hours, and customer satisfaction scores increased by 40%.",
     author: "David Kim",
     role: "Director of Operations, GlobalRetail",
     rating: 5,
