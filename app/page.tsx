@@ -78,3 +78,25 @@ const testimonials = [
     rating: 5,
   },
 ]
+
+export default function HomePage() {
+  return (
+    <div className="bg-white dark:bg-gray-900 min-h-screen py-24 px-6 text-center">
+      <h1 className="text-4xl font-bold text-gray-900 dark:text-white sm:text-6xl">
+        Transform Your Business with <span className="text-primary-600">AI Automation</span>
+      </h1>
+      <p className="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+        Bravos helps financial professionals streamline workflows, save time, and scale operations using AI.
+      </p>
+
+      <div className="mt-10">
+        <Link
+          href="/contact"
+          className="inline-flex items-center bg-primary-600 text-white px-6 py-3 text-lg rounded-lg font-semibold hover:bg-primary-700"
+        >
+          Get Started <ArrowRight className="ml-2 h-5 w-5" />
+        </Link>
+      </div>
+    </div>
+  )
+}
