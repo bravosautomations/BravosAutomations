@@ -11,6 +11,13 @@ import {
   Star
 } from 'lucide-react'
 
+import { type Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Bravos Automations',
+  description: 'Automate your business workflows with intelligent AI systems built for scale.',
+}
+
 const features = [
   {
     name: 'AI-Powered Automation',
