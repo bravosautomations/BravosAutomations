@@ -6,7 +6,7 @@ const milestones = [
   {
     year: '2025',
     title: 'Company Founded',
-    description: 'Bravos Automation was established in Toronto, Ontario, with a vision to democratize intelligent automation for businesses of all sizes.',
+    description: 'Bravos Automations was established in Toronto, Ontario, with a vision to democratize intelligent automation for financial advisors.',
     icon: Building2,
   },
   {
@@ -23,8 +23,8 @@ const milestones = [
   },
   {
     year: '2025',
-    title: 'Market Recognition',
-    description: 'Recognized as one of Canada\'s fastest-growing automation companies, serving clients across North America.',
+    title: 'Platform Launch',
+    description: 'Successfully launched our AI-powered automation platform, serving financial advisors across North America.',
     icon: TrendingUp,
   },
 ]
@@ -64,8 +64,8 @@ export default function AboutPage() {
               <span className="gradient-text">Innovation</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              From a vision in Toronto to transforming businesses worldwide, discover how Bravos Automation 
-              is revolutionizing the future of intelligent automation.
+              From a vision in Toronto to transforming financial advisory practices, discover how Bravos Automations 
+              is revolutionizing the future of intelligent automation for financial professionals.
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function AboutPage() {
               </h2>
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
-                  <strong className="text-gray-900 dark:text-gray-100">Pawan Mahal</strong> is the visionary founder and CEO of Bravos Automation, 
+                  <strong className="text-gray-900 dark:text-gray-100">Pawan Mahal</strong> is the visionary founder and CEO of Bravos Automations, 
                   bringing over a decade of experience in finance and technology to the world of intelligent automation.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
@@ -92,12 +92,12 @@ export default function AboutPage() {
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
                   After years of analyzing market trends and identifying the growing need for accessible, intelligent automation 
-                  solutions, Pawan founded Bravos Automation in 2025. His vision was clear: to democratize automation technology 
-                  and make it accessible to businesses of all sizes, not just Fortune 500 companies with massive IT budgets.
+                  solutions, Pawan founded Bravos Automations in 2025. His vision was clear: to democratize automation technology 
+                  and make it accessible to financial advisors and professionals, not just Fortune 500 companies with massive IT budgets.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400">
-                  With his unique blend of financial expertise and technological insight, Pawan has guided Bravos Automation 
-                  from a small startup in Toronto to a rapidly growing company serving clients across North America. His 
+                  With his unique blend of financial expertise and technological insight, Pawan has guided Bravos Automations 
+                  from a small startup in Toronto to a rapidly growing company serving financial advisors across North America. His 
                   commitment to innovation, client success, and building a team of world-class automation specialists has 
                   been the driving force behind the company's remarkable growth and success.
                 </p>
@@ -109,7 +109,7 @@ export default function AboutPage() {
                   <div className="text-6xl font-bold mb-4">Pawan</div>
                   <div className="text-2xl font-semibold mb-2">Mahal</div>
                   <div className="text-lg opacity-90">Founder & CEO</div>
-                  <div className="text-sm opacity-75 mt-2">Bravos Automation</div>
+                  <div className="text-sm opacity-75 mt-2">Bravos Automations</div>
                 </div>
               </div>
             </div>
@@ -126,8 +126,8 @@ export default function AboutPage() {
               From Toronto to the World
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Bravos Automation's story is one of innovation, determination, and a relentless focus on transforming 
-              how businesses operate through intelligent automation.
+              Bravos Automations' story is one of innovation, determination, and a relentless focus on transforming 
+              how financial advisors operate through intelligent automation.
             </p>
           </div>
           
@@ -169,9 +169,9 @@ export default function AboutPage() {
               Democratizing Intelligent Automation
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              We believe that every business, regardless of size or industry, deserves access to the transformative 
+              We believe that every financial advisor, regardless of practice size, deserves access to the transformative 
               power of intelligent automation. Our mission is to make this technology accessible, affordable, and 
-              easy to implement.
+              easy to implement for financial professionals.
             </p>
           </div>
           
@@ -201,7 +201,7 @@ export default function AboutPage() {
               Ready to Transform Your Business?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Join the hundreds of companies that have already revolutionized their operations with Bravos Automation. 
+              Join the financial advisors that have already revolutionized their operations with Bravos Automations. 
               Let's build the future of intelligent automation together.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -209,7 +209,7 @@ export default function AboutPage() {
                 Explore Solutions
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-              <Link href="/contact" className="btn-secondary text-lg px-8 py-4">
+              <Link href="mailto:pawan@bravosautomations.io" className="btn-secondary text-lg px-8 py-4">
                 Contact Sales
               </Link>
             </div>

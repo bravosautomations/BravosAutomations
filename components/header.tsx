@@ -59,7 +59,7 @@ export function Header() {
           </button>
           
           <Link
-            href="/contact"
+            href="mailto:pawan@bravosautomations.io"
             className="ml-4 inline-flex items-center gap-x-1.5 rounded-lg bg-primary-600 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-primary-700 hover:shadow-md transition-all duration-200 hover:scale-105"
           >
             Get Started
@@ -111,7 +111,7 @@ export function Header() {
                 </button>
 
                 <Link
-                  href="/contact"
+                  href="mailto:pawan@bravosautomations.io"
                   className="block w-full text-center btn-primary hover:scale-105 transition-transform duration-200"
                   onClick={() => setMobileMenuOpen(false)}
                 >

@@ -65,11 +65,11 @@ export default function SolutionsPage() {
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl">
               Automation Solutions for{' '}
-              <span className="gradient-text">Every Industry</span>
+              <span className="gradient-text">Financial Advisors</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              From startups to Fortune 500 companies, we provide tailored automation solutions 
-              that drive efficiency, reduce costs, and accelerate growth across all industries.
+              Specialized automation solutions designed specifically for financial advisors and professionals 
+              to streamline operations, enhance client service, and scale your practice efficiently.
             </p>
           </div>
         </div>
@@ -79,9 +79,9 @@ export default function SolutionsPage() {
       <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center mb-16">
-            <h2 className="text-base font-semibold leading-7 text-primary-600">Industry Solutions</h2>
+            <h2 className="text-base font-semibold leading-7 text-primary-600">Practice Solutions</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
-              Tailored automation for your business
+              Tailored automation for your practice
             </p>
           </div>
           
@@ -123,14 +123,14 @@ export default function SolutionsPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
-              Don't see your industry?
+              Need a custom solution?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-              We work with businesses across all sectors. Contact our team to discuss how 
-              Bravos Automation can transform your specific industry challenges.
+              We work with financial advisors across all practice types. Contact our team to discuss how 
+              Bravos Automations can transform your specific workflow challenges.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Link href="/contact" className="btn-primary text-lg px-8 py-4">
+              <Link href="mailto:pawan@bravosautomations.io" className="btn-primary text-lg px-8 py-4">
                 Contact Sales
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>

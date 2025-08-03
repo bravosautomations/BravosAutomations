@@ -6,8 +6,7 @@ import {
   Linkedin, 
   Github, 
   Mail,
-  MapPin,
-  Phone
+  MapPin
 } from 'lucide-react'
 
 const navigation = {
@@ -59,8 +58,8 @@ export function Footer() {
           <div className="space-y-8">
             <Logo className="h-8 w-8 text-primary-600" showText={true} />
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-              Transforming businesses worldwide with intelligent automation solutions. 
-              Join thousands of companies streamlining their operations with AI.
+              Automate your business workflows with intelligent AI systems built for scale. 
+              Specialized in automations for financial advisors and professionals.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -137,15 +136,11 @@ export function Footer() {
                 <div className="mt-6 space-y-4">
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <Mail className="h-4 w-4 text-primary-600" />
-                    <span>hello@bravosautomations.io</span>
-                  </div>
-                  <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
-                    <Phone className="h-4 w-4 text-primary-600" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>pawan@bravosautomations.io</span>
                   </div>
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <MapPin className="h-4 w-4 text-primary-600" />
-                    <span>San Francisco, CA</span>
+                    <span>Toronto, ON</span>
                   </div>
                 </div>
               </div>

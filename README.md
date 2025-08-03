@@ -1,4 +1,4 @@
-# Bravos Automation
+# Bravos Automations
 
 A modern, AI-powered automation platform built with Next.js 14, TypeScript, and Tailwind CSS.
 
@@ -115,4 +115,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with ❤️ by the Bravos Automation team 
+Built with ❤️ by the Bravos Automations team 

@@ -120,4 +120,4 @@ Once deployed, your site will:
 3. **Set up form handling** if you have contact forms
 4. **Enable analytics** in your Netlify dashboard
 
-Your Bravos Automation site is now production-ready! 🎉
+Your Bravos Automations site is now production-ready! 🎉
