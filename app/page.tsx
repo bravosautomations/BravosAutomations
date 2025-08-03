@@ -8,10 +8,6 @@ import {
   Users, 
   CheckCircle,
   ArrowRight,
-  Star,
-  Zap,
-  BarChart3,
-  Workflow,
   Mail,
   MapPin,
   UserPlus,
@@ -95,34 +91,6 @@ const useCases = [
   },
 ]
 
-const stats = [
-  { name: 'Financial Advisors', value: '500+' },
-  { name: 'Hours Saved Weekly', value: '2,000+' },
-  { name: 'Client Interactions Automated', value: '50K+' },
-  { name: 'Customer Satisfaction', value: '99.9%' },
-]
-
-const testimonials = [
-  {
-    content: "Bravos Automations transformed our client onboarding process. What used to take 3 days now happens in 3 hours, and our clients love the smooth experience.",
-    author: "Sarah Mitchell",
-    role: "Senior Financial Advisor, WealthCorp",
-    rating: 5,
-  },
-  {
-    content: "The AI-powered email organization alone saves me 2 hours daily. I can focus on what matters most - my clients.",
-    author: "Michael Chen",
-    role: "Independent Financial Advisor",
-    rating: 5,
-  },
-  {
-    content: "Our compliance workflows are now bulletproof. Every document is tracked, every deadline met automatically. Game changer.",
-    author: "Amanda Rodriguez",
-    role: "Compliance Director, Capital Advisors",
-    rating: 5,
-  },
-]
-
 export default function HomePage() {
   return (
     <div className="min-h-screen">
@@ -133,7 +101,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-8 flex justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 dark:text-gray-300 ring-1 ring-gray-900/10 dark:ring-gray-100/10 hover:ring-gray-900/20 dark:hover:ring-gray-100/20 bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm">
-                Trusted by 500+ financial advisors across North America.{' '}
+                Trusted by financial advisors across North America.{' '}
                 <Link href="/solutions" className="font-semibold text-primary-600 dark:text-primary-400">
                   <span className="absolute inset-0" aria-hidden="true" />
                   See how <span aria-hidden="true">&rarr;</span>
@@ -179,32 +147,6 @@ export default function HomePage() {
         <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
           <div className="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-primary-300 to-purple-300 opacity-30" 
                style={{clipPath: 'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)'}}></div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-24 sm:py-32 bg-white dark:bg-gray-900">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:max-w-none">
-            <div className="text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                Trusted by financial advisors everywhere
-              </h2>
-              <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                Real results from real advisors
-              </p>
-            </div>
-            <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
-              {stats.map((stat, index) => (
-                <div key={stat.name} className="flex flex-col bg-gray-50 dark:bg-gray-800/50 p-8 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200">
-                  <dt className="text-sm font-semibold leading-6 text-gray-600 dark:text-gray-400">{stat.name}</dt>
-                  <dd className="order-first text-3xl font-bold tracking-tight text-gray-900 dark:text-white lg:text-4xl">
-                    {stat.value}
-                  </dd>
-                </div>
-              ))}
-            </dl>
-          </div>
         </div>
       </section>
 
@@ -276,45 +218,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-24 sm:py-32 bg-gray-50 dark:bg-gray-900/50">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              What advisors are saying
-            </h2>
-            <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              Real stories from financial advisors who've transformed their practice.
-            </p>
-          </div>
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="card hover:shadow-xl transition-shadow duration-300 group">
-                <div className="flex gap-x-1 text-primary-500 mb-4">
-                  {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-current" />
-                  ))}
-                </div>
-                <blockquote className="text-gray-900 dark:text-gray-100 text-sm leading-6">
-                  <p>"{testimonial.content}"</p>
-                </blockquote>
-                <figcaption className="mt-6 flex items-center gap-x-4">
-                  <div className="h-10 w-10 rounded-full bg-gradient-to-r from-primary-500 to-purple-500 flex items-center justify-center text-white font-semibold">
-                    {testimonial.author.split(' ').map(n => n[0]).join('')}
-                  </div>
-                  <div>
-                    <div className="font-semibold text-gray-900 dark:text-white">{testimonial.author}</div>
-                    <div className="text-gray-600 dark:text-gray-400 text-sm">{testimonial.role}</div>
-                  </div>
-                </figcaption>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
-      <section className="py-24 sm:py-32 bg-white dark:bg-gray-900">
+      <section className="py-24 sm:py-32 bg-gray-50 dark:bg-gray-900/50">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
@@ -343,7 +248,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Location</h3>
                 <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
-                  Based in Ontario, Canada
+                  Toronto, ON
                 </p>
               </div>
             </div>

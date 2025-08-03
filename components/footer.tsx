@@ -6,8 +6,7 @@ import {
   Linkedin, 
   Github, 
   Mail,
-  MapPin,
-  Phone
+  MapPin
 } from 'lucide-react'
 
 const navigation = {
@@ -143,7 +142,7 @@ export function Footer() {
                   </div>
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <MapPin className="h-4 w-4 text-primary-600" />
-                    <span>Based in Ontario, Canada</span>
+                    <span>Toronto, ON</span>
                   </div>
                 </div>
               </div>
