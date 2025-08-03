@@ -69,6 +69,38 @@
   .slide-up {
     @apply animate-slide-up;
   }
+
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .btn-primary,
+    .btn-secondary {
+      @apply text-base py-2.5 px-5;
+    }
+
+    .card {
+      @apply p-4;
+    }
+
+    h1 {
+      @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+    }
+
+    h2 {
+      @apply text-xl sm:text-2xl md:text-3xl;
+    }
+
+    .hero-gradient-text {
+      @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+    }
+  }
+
+  /* Touch targets for mobile */
+  @media (max-width: 768px) {
+    button,
+    a {
+      @apply min-h-[44px] min-w-[44px];
+    }
+  }
 }
 
 @layer utilities {
@@ -154,5 +186,18 @@
 
   .interactive:active {
     @apply transform scale-95;
+  }
+
+  /* Mobile responsive utilities */
+  .responsive-text {
+    @apply text-sm sm:text-base md:text-lg;
+  }
+
+  .responsive-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .responsive-margin {
+    @apply mx-4 sm:mx-6 lg:mx-auto;
   }
 } 

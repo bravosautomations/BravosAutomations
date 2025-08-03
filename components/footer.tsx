@@ -19,7 +19,7 @@ const navigation = {
   ],
   company: [
     { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Contact Us', href: 'mailto:pawan@bravosautomations.io' },
     { name: 'Careers', href: '#' },
     { name: 'Press', href: '#' },
   ],
@@ -59,8 +59,8 @@ export function Footer() {
           <div className="space-y-8">
             <Logo className="h-8 w-8 text-primary-600" showText={true} />
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-              Transforming businesses worldwide with intelligent automation solutions. 
-              Join thousands of companies streamlining their operations with AI.
+              Transforming financial advisory businesses worldwide with intelligent automation solutions. 
+              Join thousands of advisors streamlining their operations with AI.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -137,15 +137,13 @@ export function Footer() {
                 <div className="mt-6 space-y-4">
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <Mail className="h-4 w-4 text-primary-600" />
-                    <span>hello@bravosautomations.io</span>
-                  </div>
-                  <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
-                    <Phone className="h-4 w-4 text-primary-600" />
-                    <span>+1 (555) 123-4567</span>
+                    <Link href="mailto:pawan@bravosautomations.io" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+                      pawan@bravosautomations.io
+                    </Link>
                   </div>
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <MapPin className="h-4 w-4 text-primary-600" />
-                    <span>San Francisco, CA</span>
+                    <span>Based in Ontario, Canada</span>
                   </div>
                 </div>
               </div>
@@ -161,7 +159,7 @@ export function Footer() {
                 Stay updated
               </h3>
               <p className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300">
-                Get the latest automation insights and product updates delivered to your inbox.
+                Get the latest automation insights and tips for financial advisors delivered to your inbox.
               </p>
             </div>
             <div className="mt-6 sm:flex sm:max-w-md md:mt-0">

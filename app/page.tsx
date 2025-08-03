@@ -11,73 +11,114 @@ import {
   Star,
   Zap,
   BarChart3,
-  Workflow
+  Workflow,
+  Mail,
+  MapPin,
+  UserPlus,
+  Database,
+  MessageSquare,
+  FileText,
+  Target,
+  FileCheck
 } from 'lucide-react'
 
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Bravos Automations',
-  description: 'Automate your business workflows with intelligent AI systems built for scale.',
+  title: 'Bravos Automations – AI-Powered Workflow Automation for Financial Advisors',
+  description: 'Automate your business workflows with intelligent AI systems built for scale. Specialized in automations for financial advisors and professionals.',
 }
 
 const features = [
   {
     name: 'AI-Powered Automations',
-    description: 'Leverage advanced machine learning to automate complex business processes with unprecedented accuracy.',
+    description: 'Smart automation that learns from your workflows and gets better over time.',
     icon: Brain,
   },
   {
     name: 'Enterprise Security',
-    description: 'Bank-grade security with SOC 2 compliance, end-to-end encryption, and role-based access controls.',
+    description: 'Bank-grade security with SOC 2 compliance and end-to-end encryption.',
     icon: Shield,
   },
   {
     name: 'Real-time Analytics',
-    description: 'Monitor performance, track KPIs, and gain insights with comprehensive dashboards and reporting.',
+    description: 'Track performance and gain insights with comprehensive dashboards.',
     icon: TrendingUp,
   },
   {
     name: '24/7 Operation',
-    description: 'Run your automation workflows around the clock without human intervention or downtime.',
+    description: 'Your automations work around the clock, even when you don\'t.',
     icon: Clock,
   },
   {
     name: 'Team Collaboration',
-    description: 'Enable your entire team to build, deploy, and manage automation workflows together.',
+    description: 'Enable your entire team to build and manage workflows together.',
     icon: Users,
   },
   {
     name: 'Easy Integration',
-    description: 'Connect with 500+ applications and APIs with our simple drag-and-drop interface.',
+    description: 'Connect with 500+ applications with our simple drag-and-drop interface.',
     icon: CheckCircle,
   },
 ]
 
+const useCases = [
+  {
+    name: 'Client Onboarding',
+    description: 'Automate document collection, KYC processes, and welcome sequences.',
+    icon: UserPlus,
+  },
+  {
+    name: 'CRM Updates',
+    description: 'Keep client records fresh with automated data syncing and updates.',
+    icon: Database,
+  },
+  {
+    name: 'Email Organization',
+    description: 'Smart email sorting, tagging, and priority management.',
+    icon: MessageSquare,
+  },
+  {
+    name: 'Meeting Note Summaries',
+    description: 'AI-powered meeting transcription and action item extraction.',
+    icon: FileText,
+  },
+  {
+    name: 'Lead Generation & Outreach',
+    description: 'Automated prospect research and personalized outreach campaigns.',
+    icon: Target,
+  },
+  {
+    name: 'Compliance Workflows',
+    description: 'Ensure regulatory compliance with automated documentation and reporting.',
+    icon: FileCheck,
+  },
+]
+
 const stats = [
-  { name: 'Companies Automated', value: '1,000+' },
-  { name: 'Processes Streamlined', value: '10,000+' },
-  { name: 'Time Saved', value: '250K+ hours' },
+  { name: 'Financial Advisors', value: '500+' },
+  { name: 'Hours Saved Weekly', value: '2,000+' },
+  { name: 'Client Interactions Automated', value: '50K+' },
   { name: 'Customer Satisfaction', value: '99.9%' },
 ]
 
 const testimonials = [
   {
-    content: "Bravos Automations revolutionized our customer service operations. Response times dropped from 24 hours to under 2 hours, and customer satisfaction scores increased by 40%.",
-    author: "David Kim",
-    role: "Director of Operations, GlobalRetail",
+    content: "Bravos Automations transformed our client onboarding process. What used to take 3 days now happens in 3 hours, and our clients love the smooth experience.",
+    author: "Sarah Mitchell",
+    role: "Senior Financial Advisor, WealthCorp",
     rating: 5,
   },
   {
-    content: "The intelligent automation platform exceeded our expectations. We automated 200+ processes in just 3 months, saving our team over 15,000 hours annually.",
-    author: "Lisa Thompson",
-    role: "VP of Technology, FinServ Solutions",
+    content: "The AI-powered email organization alone saves me 2 hours daily. I can focus on what matters most - my clients.",
+    author: "Michael Chen",
+    role: "Independent Financial Advisor",
     rating: 5,
   },
   {
-    content: "Bravos helped us scale our operations without hiring additional staff. The ROI was immediate - we saw a 300% increase in processing capacity within the first quarter.",
-    author: "Marcus Johnson",
-    role: "CEO, ScaleUp Ventures",
+    content: "Our compliance workflows are now bulletproof. Every document is tracked, every deadline met automatically. Game changer.",
+    author: "Amanda Rodriguez",
+    role: "Compliance Director, Capital Advisors",
     rating: 5,
   },
 ]
@@ -92,39 +133,43 @@ export default function HomePage() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-8 flex justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 dark:text-gray-300 ring-1 ring-gray-900/10 dark:ring-gray-100/10 hover:ring-gray-900/20 dark:hover:ring-gray-100/20 bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm">
-                Announcing our new AI-powered automation platform.{' '}
+                Trusted by 500+ financial advisors across North America.{' '}
                 <Link href="/solutions" className="font-semibold text-primary-600 dark:text-primary-400">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  Read more <span aria-hidden="true">&rarr;</span>
+                  See how <span aria-hidden="true">&rarr;</span>
                 </Link>
               </div>
             </div>
             
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl lg:text-7xl">
-              Transform Your Business with{' '}
+              Stop doing busy work.{' '}
               <span className="bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent animate-fade-in">
-                AI Automation
+                Start growing.
               </span>
             </h1>
             
+            <p className="mt-4 text-xl font-medium text-primary-700 dark:text-primary-300">
+              Built for Financial Advisors. Designed to Save Time.
+            </p>
+            
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Bravos Automations helps businesses streamline workflows, reduce operational costs by up to 60%, 
-              and scale operations using cutting-edge AI technology. Join thousands of companies already transforming their operations.
+              Automate client onboarding, CRM updates, email management, and compliance workflows. 
+              Get back to what you do best – advising clients and growing your practice.
             </p>
             
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                href="/contact"
+                href="mailto:pawan@bravosautomations.io"
                 className="group relative inline-flex items-center gap-x-2 rounded-lg bg-primary-600 px-6 py-3.5 text-lg font-semibold text-white shadow-lg hover:bg-primary-700 hover:shadow-xl transition-all duration-200 hover:scale-105"
               >
-                Get Started Free
+                Get Started Today
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Link>
               <Link
                 href="/solutions"
                 className="inline-flex items-center gap-x-2 text-lg font-semibold leading-6 text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
               >
-                View Solutions <span aria-hidden="true">→</span>
+                See Use Cases <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>
@@ -143,10 +188,10 @@ export default function HomePage() {
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                Trusted by businesses worldwide
+                Trusted by financial advisors everywhere
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                Our automation platform delivers measurable results
+                Real results from real advisors
               </p>
             </div>
             <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
@@ -163,18 +208,52 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Use Cases Section */}
       <section className="py-24 sm:py-32 bg-gray-50 dark:bg-gray-900/50">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-base font-semibold leading-7 text-primary-600 dark:text-primary-400">
+              Solutions for Financial Advisors
+            </h2>
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+              Automate the tasks that slow you down
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+              From client onboarding to compliance reporting, we handle the busy work so you can focus on what matters.
+            </p>
+          </div>
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+              {useCases.map((useCase) => (
+                <div key={useCase.name} className="flex flex-col group">
+                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-primary-600 group-hover:bg-primary-700 transition-colors duration-200">
+                    <useCase.icon className="h-6 w-6 text-white" aria-hidden="true" />
+                  </div>
+                  <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-white">
+                    {useCase.name}
+                  </dt>
+                  <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-gray-300">
+                    <p className="flex-auto">{useCase.description}</p>
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-24 sm:py-32 bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-base font-semibold leading-7 text-primary-600 dark:text-primary-400">
               Powerful Features
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              Everything you need to automate your business
+              Built for the way you work
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              Our comprehensive automation platform provides all the tools and features you need to streamline operations and boost productivity.
+              Enterprise-grade automation that's simple enough for anyone to use.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -198,14 +277,14 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-24 sm:py-32 bg-white dark:bg-gray-900">
+      <section className="py-24 sm:py-32 bg-gray-50 dark:bg-gray-900/50">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              What our customers say
+              What advisors are saying
             </h2>
             <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              Don't just take our word for it. Here's what industry leaders have to say about our platform.
+              Real stories from financial advisors who've transformed their practice.
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -234,23 +313,110 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section className="py-24 sm:py-32 bg-white dark:bg-gray-900">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+              Ready to get started?
+            </h2>
+            <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
+              Let's discuss how automation can transform your financial advisory practice.
+            </p>
+          </div>
+          <div className="mx-auto mt-16 max-w-2xl">
+            <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+              <div className="text-center">
+                <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-lg bg-primary-600">
+                  <Mail className="h-6 w-6 text-white" />
+                </div>
+                <h3 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Email us</h3>
+                <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
+                  <Link href="mailto:pawan@bravosautomations.io" className="text-primary-600 hover:text-primary-500 dark:text-primary-400 dark:hover:text-primary-300">
+                    pawan@bravosautomations.io
+                  </Link>
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-lg bg-primary-600">
+                  <MapPin className="h-6 w-6 text-white" />
+                </div>
+                <h3 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">Location</h3>
+                <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
+                  Based in Ontario, Canada
+                </p>
+              </div>
+            </div>
+            
+            {/* Simple Contact Form */}
+            <div className="mt-16">
+              <form className="space-y-6">
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-900 dark:text-white">
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      className="mt-2 block w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-900 dark:text-white">
+                      Email
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      className="mt-2 block w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-900 dark:text-white">
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows={4}
+                    className="mt-2 block w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-primary-500 focus:outline-none focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-800 dark:text-white"
+                  />
+                </div>
+                <div className="text-center">
+                  <button
+                    type="submit"
+                    className="inline-flex items-center rounded-md bg-primary-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 transition-colors duration-200"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="relative isolate overflow-hidden bg-gradient-to-br from-primary-600 to-purple-700 py-24 sm:py-32">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Ready to transform your business?
+              Stop wasting time on busy work
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-100">
-              Join thousands of companies already using Bravos Automations to streamline their operations and boost productivity.
+              Join hundreds of financial advisors who've already automated their practice and gotten back to what they love.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                href="/contact"
+                href="mailto:pawan@bravosautomations.io"
                 className="rounded-lg bg-white px-6 py-3 text-lg font-semibold text-primary-600 shadow-lg hover:bg-gray-50 hover:shadow-xl transition-all duration-200 hover:scale-105"
               >
-                Start Free Trial
+                Start Your Automation Journey
               </Link>
               <Link
                 href="/solutions"
