@@ -4,8 +4,8 @@ import { ArrowRight, Mail, Phone, MapPin, Clock } from 'lucide-react'
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact AI Automation Agency | Get Started with Custom Automation',
-  description: 'Contact our AI automation agency to discuss how we can help streamline your business workflows and boost productivity with intelligent automation solutions.',
+  title: 'Contact Bravos Automations | Get Started with Custom Automation',
+  description: 'Contact Bravos Automations to discuss how we can help streamline your business workflows and boost productivity with intelligent automation solutions.',
 }
 
 export default function ContactPage() {
@@ -16,8 +16,8 @@ export default function ContactPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl">
-              Contact Our{' '}
-              <span className="gradient-text">AI Automation Agency</span>
+              Contact{' '}
+              <span className="gradient-text">Bravos Automations</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               Ready to transform your business with AI automation? Get in touch with our team to discuss 
@@ -118,7 +118,7 @@ export default function ContactPage() {
                   Let's discuss your automation needs
                 </h3>
                 <p className="text-lg text-gray-600 dark:text-gray-400 mb-8">
-                  Our AI automation agency specializes in helping businesses of all sizes streamline their operations. 
+                  Our AI automation company specializes in helping businesses of all sizes streamline their operations. 
                   Whether you need workflow automation, process optimization, or custom AI solutions, we're here to help.
                 </p>
               </div>
@@ -130,7 +130,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-900 dark:text-gray-100">Email</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">hello@ai-automation-agency.com</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">pawan@bravosautomations.io</p>
                   </div>
                 </div>
 
@@ -140,7 +140,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-900 dark:text-gray-100">Phone</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">+1 (555) 123-4567</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">(226) 505-2213</p>
                   </div>
                 </div>
 
@@ -150,7 +150,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-900 dark:text-gray-100">Office</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">San Francisco, CA</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Toronto, Ontario, Canada</p>
                   </div>
                 </div>
 
@@ -160,14 +160,14 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h4 className="text-sm font-medium text-gray-900 dark:text-gray-100">Business Hours</h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">Mon-Fri: 9AM-6PM PST</p>
+                    <p className="text-sm text-gray-600 dark:text-gray-400">Mon-Fri: 9AM-6PM EST</p>
                   </div>
                 </div>
               </div>
 
               <div className="pt-6 border-t border-gray-200 dark:border-gray-700">
                 <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">
-                  Why choose our AI automation agency?
+                  Why choose our AI automation company?
                 </h4>
                 <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-400">
                   <li>• Custom automation solutions for any industry</li>

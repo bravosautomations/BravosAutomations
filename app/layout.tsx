@@ -9,23 +9,23 @@ import { Footer } from '@/components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AI Automation Agency | Intelligent Workflow Solutions for Any Business',
-  description: 'AI automation agency helping businesses streamline workflows, boost productivity, and grow revenue with intelligent automation systems.',
-  keywords: 'AI automation agency, AI workflow automation, business process automation, custom AI automation solutions, intelligent automation agency, workflow automation services',
-  authors: [{ name: 'AI Automation Agency' }],
-  creator: 'AI Automation Agency',
+  title: 'Bravos Automations | Intelligent Workflow Solutions for Any Business',
+  description: 'Bravos Automations helping businesses streamline workflows, boost productivity, and grow revenue with intelligent automation systems.',
+  keywords: 'Bravos Automations, AI workflow automation, business process automation, custom AI automation solutions, intelligent automation company, workflow automation services',
+  authors: [{ name: 'Bravos Automations' }],
+  creator: 'Bravos Automations',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://ai-automation-agency.com',
-    title: 'AI Automation Agency | Intelligent Workflow Solutions for Any Business',
-    description: 'AI automation agency helping businesses streamline workflows, boost productivity, and grow revenue with intelligent automation systems.',
-    siteName: 'AI Automation Agency',
+    url: 'https://bravosautomations.io',
+    title: 'Bravos Automations | Intelligent Workflow Solutions for Any Business',
+    description: 'Bravos Automations helping businesses streamline workflows, boost productivity, and grow revenue with intelligent automation systems.',
+    siteName: 'Bravos Automations',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AI Automation Agency | Intelligent Workflow Solutions for Any Business',
-    description: 'AI automation agency helping businesses streamline workflows, boost productivity, and grow revenue with intelligent automation systems.',
+    title: 'Bravos Automations | Intelligent Workflow Solutions for Any Business',
+    description: 'Bravos Automations helping businesses streamline workflows, boost productivity, and grow revenue with intelligent automation systems.',
   },
   robots: {
     index: true,
@@ -47,26 +47,26 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "AI Automation Agency",
-              "url": "https://ai-automation-agency.com",
-              "description": "AI automation agency helping businesses streamline workflows, boost productivity, and grow revenue with intelligent automation systems.",
-              "serviceType": "AI Automation Agency",
+              "name": "Bravos Automations",
+              "url": "https://bravosautomations.io",
+              "description": "Bravos Automations helping businesses streamline workflows, boost productivity, and grow revenue with intelligent automation systems.",
+              "serviceType": "AI Automation Company",
               "sameAs": [
-                "https://twitter.com/ai_automation_agency",
-                "https://linkedin.com/company/ai-automation-agency",
-                "https://github.com/ai-automation-agency"
+                "https://twitter.com/bravosautomations",
+                "https://linkedin.com/company/bravosautomations",
+                "https://github.com/bravosautomations"
               ],
               "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "San Francisco",
-                "addressRegion": "CA",
-                "addressCountry": "US"
+                "addressLocality": "Toronto",
+                "addressRegion": "Ontario",
+                "addressCountry": "CA"
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+1-555-123-4567",
+                "telephone": "(226) 505-2213",
                 "contactType": "customer service",
-                "email": "hello@ai-automation-agency.com"
+                "email": "pawan@bravosautomations.io"
               },
               "foundingDate": "2025",
               "founder": {

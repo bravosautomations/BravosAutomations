@@ -82,10 +82,10 @@ export function Logo({ className = "h-8 w-8", showText = true }: LogoProps) {
       {showText && (
         <div className="flex flex-col transition-all duration-300 group-hover:translate-x-1">
           <span className="text-xl font-bold bg-gradient-to-r from-primary-600 via-purple-600 to-primary-600 bg-clip-text text-transparent animate-gradient bg-size-200">
-            AI AUTOMATION
+            BRAVOS AUTOMATIONS
           </span>
           <span className="text-xs font-medium text-gray-600 dark:text-gray-400 -mt-1 tracking-wider">
-            AGENCY
+            INTELLIGENT WORKFLOW SOLUTIONS
           </span>
         </div>
       )}
