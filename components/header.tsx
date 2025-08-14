@@ -21,7 +21,7 @@ export function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5 hover:scale-105 transition-transform duration-200">
-            <span className="sr-only">Bravos Automations</span>
+            <span className="sr-only">AI Automation Agency</span>
             <Logo className="h-8 w-8 text-primary-600" />
           </Link>
         </div>
@@ -72,7 +72,7 @@ export function Header() {
         <div className="lg:hidden fixed inset-y-0 right-0 z-50 w-full bg-white/95 dark:bg-gray-900/95 backdrop-blur-md px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:sm:ring-gray-100/10">
           <div className="flex items-center justify-between">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">Bravos Automations</span>
+              <span className="sr-only">AI Automation Agency</span>
               <Logo className="h-8 w-8 text-primary-600" />
             </Link>
             <button

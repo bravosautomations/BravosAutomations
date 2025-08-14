@@ -17,38 +17,38 @@ import {
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Bravos Automations',
-  description: 'Automate your business workflows with intelligent AI systems built for scale.',
+  title: 'AI Automation Agency | Custom AI Workflow Solutions for Any Business',
+  description: 'AI automation agency helping businesses streamline workflows, boost productivity, and increase revenue with intelligent automation solutions tailored to your needs.',
 }
 
 const features = [
   {
-    name: 'AI-Powered Automations',
-    description: 'Leverage advanced machine learning to automate complex business processes with unprecedented accuracy.',
+    name: 'AI-Powered Workflow Automation',
+    description: 'Leverage advanced machine learning to automate complex business processes with unprecedented accuracy and efficiency.',
     icon: Brain,
   },
   {
-    name: 'Enterprise Security',
-    description: 'Bank-grade security with SOC 2 compliance, end-to-end encryption, and role-based access controls.',
+    name: 'Enterprise-Grade Security',
+    description: 'Bank-grade security with SOC 2 compliance, end-to-end encryption, and role-based access controls for any industry.',
     icon: Shield,
   },
   {
-    name: 'Real-time Analytics',
-    description: 'Monitor performance, track KPIs, and gain insights with comprehensive dashboards and reporting.',
+    name: 'Real-time Analytics & Insights',
+    description: 'Monitor performance, track KPIs, and gain actionable insights with comprehensive dashboards and reporting.',
     icon: TrendingUp,
   },
   {
-    name: '24/7 Operation',
+    name: '24/7 Automated Operations',
     description: 'Run your automation workflows around the clock without human intervention or downtime.',
     icon: Clock,
   },
   {
-    name: 'Team Collaboration',
-    description: 'Enable your entire team to build, deploy, and manage automation workflows together.',
+    name: 'Team Collaboration Tools',
+    description: 'Enable your entire team to build, deploy, and manage automation workflows together seamlessly.',
     icon: Users,
   },
   {
-    name: 'Easy Integration',
+    name: 'Easy Integration & Connectivity',
     description: 'Connect with 500+ applications and APIs with our simple drag-and-drop interface.',
     icon: CheckCircle,
   },
@@ -63,7 +63,7 @@ const stats = [
 
 const testimonials = [
   {
-    content: "Bravos Automations revolutionized our customer service operations. Response times dropped from 24 hours to under 2 hours, and customer satisfaction scores increased by 40%.",
+    content: "This AI automation agency revolutionized our customer service operations. Response times dropped from 24 hours to under 2 hours, and customer satisfaction scores increased by 40%.",
     author: "David Kim",
     role: "Director of Operations, GlobalRetail",
     rating: 5,
@@ -71,11 +71,11 @@ const testimonials = [
   {
     content: "The intelligent automation platform exceeded our expectations. We automated 200+ processes in just 3 months, saving our team over 15,000 hours annually.",
     author: "Lisa Thompson",
-    role: "VP of Technology, FinServ Solutions",
+    role: "VP of Technology, TechFlow Solutions",
     rating: 5,
   },
   {
-    content: "Bravos helped us scale our operations without hiring additional staff. The ROI was immediate - we saw a 300% increase in processing capacity within the first quarter.",
+    content: "This AI automation agency helped us scale our operations without hiring additional staff. The ROI was immediate - we saw a 300% increase in processing capacity within the first quarter.",
     author: "Marcus Johnson",
     role: "CEO, ScaleUp Ventures",
     rating: 5,
@@ -92,7 +92,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mb-8 flex justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 dark:text-gray-300 ring-1 ring-gray-900/10 dark:ring-gray-100/10 hover:ring-gray-900/20 dark:hover:ring-gray-100/20 bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm">
-                Announcing our new AI-powered automation platform.{' '}
+                Announcing our new AI-powered workflow automation platform.{' '}
                 <Link href="/solutions" className="font-semibold text-primary-600 dark:text-primary-400">
                   <span className="absolute inset-0" aria-hidden="true" />
                   Read more <span aria-hidden="true">&rarr;</span>
@@ -101,15 +101,15 @@ export default function HomePage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl lg:text-7xl">
-              Transform Your Business with{' '}
+              AI Automation Agency —{' '}
               <span className="bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent animate-fade-in">
-                AI Automation
+                Intelligent Workflow Solutions for Any Business
               </span>
             </h1>
             
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Bravos Automations helps businesses streamline workflows, reduce operational costs by up to 60%, 
-              and scale operations using cutting-edge AI technology. Join thousands of companies already transforming their operations.
+              Automate and scale your business with AI-powered systems designed for efficiency, accuracy, and growth. 
+              Trusted by companies across every industry to streamline operations and boost productivity.
             </p>
             
             <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -146,7 +146,7 @@ export default function HomePage() {
                 Trusted by businesses worldwide
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                Our automation platform delivers measurable results
+                Our AI automation agency delivers measurable results across every industry
               </p>
             </div>
             <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
@@ -168,13 +168,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-base font-semibold leading-7 text-primary-600 dark:text-primary-400">
-              Powerful Features
+              Powerful AI Automation Features
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
               Everything you need to automate your business
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              Our comprehensive automation platform provides all the tools and features you need to streamline operations and boost productivity.
+              Our comprehensive AI automation platform provides all the tools and features you need to streamline operations and boost productivity.
             </p>
           </div>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -205,7 +205,7 @@ export default function HomePage() {
               What our customers say
             </h2>
             <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              Don't just take our word for it. Here's what industry leaders have to say about our platform.
+              Don't just take our word for it. Here's what industry leaders have to say about our AI automation agency.
             </p>
           </div>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -240,10 +240,10 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Ready to transform your business?
+              Ready to transform your business with AI automation?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-100">
-              Join thousands of companies already using Bravos Automations to streamline their operations and boost productivity.
+              Join thousands of companies already using our AI automation agency to streamline their operations and boost productivity.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link

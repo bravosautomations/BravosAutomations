@@ -6,13 +6,13 @@ const milestones = [
   {
     year: '2025',
     title: 'Company Founded',
-    description: 'Bravos Automation was established in Toronto, Ontario, with a vision to democratize intelligent automation for businesses of all sizes.',
+    description: 'Our AI automation agency was established in Toronto, Ontario, with a vision to democratize intelligent automation for businesses of all sizes.',
     icon: Building2,
   },
   {
     year: '2025',
     title: 'First Client Success',
-    description: 'Secured our first major client, a Toronto-based fintech startup, automating their customer onboarding process and reducing processing time by 85%.',
+    description: 'Secured our first major client, a Toronto-based technology startup, automating their customer onboarding process and reducing processing time by 85%.',
     icon: Award,
   },
   {
@@ -24,7 +24,7 @@ const milestones = [
   {
     year: '2025',
     title: 'Market Recognition',
-    description: 'Recognized as one of Canada\'s fastest-growing automation companies, serving clients across North America.',
+    description: 'Recognized as one of Canada\'s fastest-growing AI automation companies, serving clients across North America.',
     icon: TrendingUp,
   },
 ]
@@ -32,7 +32,7 @@ const milestones = [
 const values = [
   {
     title: 'Innovation First',
-    description: 'We believe in pushing the boundaries of what\'s possible with automation technology.',
+    description: 'We believe in pushing the boundaries of what\'s possible with AI automation technology.',
     icon: Lightbulb,
   },
   {
@@ -42,7 +42,7 @@ const values = [
   },
   {
     title: 'Global Impact',
-    description: 'We\'re committed to making automation accessible to businesses worldwide, regardless of size or industry.',
+    description: 'We\'re committed to making AI automation accessible to businesses worldwide, regardless of size or industry.',
     icon: Globe,
   },
   {
@@ -60,11 +60,11 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl">
-              Our Story of{' '}
-              <span className="gradient-text">Innovation</span>
+              About Our AI Automation Agency —{' '}
+              <span className="gradient-text">Driving Business Efficiency</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              From a vision in Toronto to transforming businesses worldwide, discover how Bravos Automation 
+              From a vision in Toronto to transforming businesses worldwide, discover how our AI automation agency 
               is revolutionizing the future of intelligent automation.
             </p>
           </div>
@@ -81,22 +81,22 @@ export default function AboutPage() {
               </h2>
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
-                  <strong className="text-gray-900 dark:text-gray-100">Pawan Mahal</strong> is the visionary founder and CEO of Bravos Automation, 
-                  bringing over a decade of experience in finance and technology to the world of intelligent automation.
+                  <strong className="text-gray-900 dark:text-gray-100">Pawan Mahal</strong> is the visionary founder and CEO of our AI automation agency, 
+                  bringing over a decade of experience in business operations and technology to the world of intelligent automation.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
                   Born and raised in Toronto, Ontario, Pawan developed a deep understanding of business operations during his 
-                  extensive career in the financial services industry. Working with major Canadian banks and fintech companies, 
+                  extensive career in the technology and business services industry. Working with major Canadian companies and technology firms, 
                   he witnessed firsthand the inefficiencies that plagued traditional business processes and the transformative 
-                  potential of automation technology.
+                  potential of AI automation technology.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
                   After years of analyzing market trends and identifying the growing need for accessible, intelligent automation 
-                  solutions, Pawan founded Bravos Automation in 2025. His vision was clear: to democratize automation technology 
+                  solutions, Pawan founded our AI automation agency in 2025. His vision was clear: to democratize AI automation technology 
                   and make it accessible to businesses of all sizes, not just Fortune 500 companies with massive IT budgets.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400">
-                  With his unique blend of financial expertise and technological insight, Pawan has guided Bravos Automation 
+                  With his unique blend of business expertise and technological insight, Pawan has guided our AI automation agency 
                   from a small startup in Toronto to a rapidly growing company serving clients across North America. His 
                   commitment to innovation, client success, and building a team of world-class automation specialists has 
                   been the driving force behind the company's remarkable growth and success.
@@ -109,7 +109,7 @@ export default function AboutPage() {
                   <div className="text-6xl font-bold mb-4">Pawan</div>
                   <div className="text-2xl font-semibold mb-2">Mahal</div>
                   <div className="text-lg opacity-90">Founder & CEO</div>
-                  <div className="text-sm opacity-75 mt-2">Bravos Automation</div>
+                  <div className="text-sm opacity-75 mt-2">AI Automation Agency</div>
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function AboutPage() {
               From Toronto to the World
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Bravos Automation's story is one of innovation, determination, and a relentless focus on transforming 
+              Our AI automation agency's story is one of innovation, determination, and a relentless focus on transforming 
               how businesses operate through intelligent automation.
             </p>
           </div>
@@ -166,11 +166,11 @@ export default function AboutPage() {
           <div className="mx-auto max-w-2xl lg:text-center mb-16">
             <h2 className="text-base font-semibold leading-7 text-primary-600">Our Mission</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
-              Democratizing Intelligent Automation
+              Democratizing Intelligent AI Automation
             </p>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
               We believe that every business, regardless of size or industry, deserves access to the transformative 
-              power of intelligent automation. Our mission is to make this technology accessible, affordable, and 
+              power of intelligent AI automation. Our mission is to make this technology accessible, affordable, and 
               easy to implement.
             </p>
           </div>
@@ -198,10 +198,10 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
-              Ready to Transform Your Business?
+              Ready to Transform Your Business with AI Automation?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Join the hundreds of companies that have already revolutionized their operations with Bravos Automation. 
+              Join the hundreds of companies that have already revolutionized their operations with our AI automation agency. 
               Let's build the future of intelligent automation together.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
