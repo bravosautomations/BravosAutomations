@@ -13,45 +13,45 @@ import {
 
 const solutions = [
   {
-    name: 'Enterprise Automation',
-    description: 'Scale automation across your entire organization with enterprise-grade security and governance.',
+    name: 'Enterprise Workflow Automation',
+    description: 'Scale automation across your entire organization with enterprise-grade security and governance for any industry.',
     icon: Building2,
-    features: ['Multi-department workflows', 'Role-based access control', 'Audit trails', 'Compliance reporting'],
+    features: ['Multi-department workflows', 'Role-based access control', 'Audit trails', 'Performance reporting'],
     href: '/solutions/enterprise'
   },
   {
-    name: 'E-commerce Automation',
-    description: 'Streamline your online business with automated order processing, inventory management, and customer service.',
+    name: 'E-commerce Process Automation',
+    description: 'Streamline your online business with automated order processing, inventory management, and customer service workflows.',
     icon: ShoppingCart,
     features: ['Order fulfillment', 'Inventory tracking', 'Customer support', 'Marketing automation'],
     href: '/solutions/ecommerce'
   },
   {
-    name: 'Education Automation',
-    description: 'Transform educational institutions with automated administrative tasks and student management.',
+    name: 'Educational Institution Automation',
+    description: 'Transform educational institutions with automated administrative tasks and student management systems.',
     icon: GraduationCap,
     features: ['Student registration', 'Grade management', 'Attendance tracking', 'Communication workflows'],
     href: '/solutions/education'
   },
   {
-    name: 'Healthcare Automation',
-    description: 'Improve patient care and operational efficiency with HIPAA-compliant automation solutions.',
+    name: 'Healthcare Process Automation',
+    description: 'Improve patient care and operational efficiency with secure, compliant automation solutions for healthcare.',
     icon: Heart,
-    features: ['Patient scheduling', 'Medical records', 'Billing automation', 'Compliance monitoring'],
+    features: ['Patient scheduling', 'Medical records', 'Billing automation', 'Quality monitoring'],
     href: '/solutions/healthcare'
   },
   {
-    name: 'Logistics Automation',
-    description: 'Optimize supply chain operations with intelligent routing, tracking, and delivery automation.',
+    name: 'Supply Chain Automation',
+    description: 'Optimize supply chain operations with intelligent routing, tracking, and delivery automation systems.',
     icon: Truck,
     features: ['Route optimization', 'Package tracking', 'Delivery scheduling', 'Inventory management'],
     href: '/solutions/logistics'
   },
   {
-    name: 'Financial Services',
-    description: 'Automate financial processes with secure, compliant solutions for banking and fintech.',
+    name: 'Business Process Automation',
+    description: 'Automate core business processes with secure, scalable solutions for any industry or sector.',
     icon: CreditCard,
-    features: ['Transaction processing', 'Risk assessment', 'Compliance reporting', 'Customer onboarding'],
+    features: ['Process optimization', 'Workflow management', 'Performance tracking', 'Client onboarding'],
     href: '/solutions/financial'
   }
 ]
@@ -64,11 +64,11 @@ export default function SolutionsPage() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-6xl">
-              Automation Solutions for{' '}
+              AI Workflow Automation Services for{' '}
               <span className="gradient-text">Every Industry</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              From startups to Fortune 500 companies, we provide tailored automation solutions 
+              From startups to Fortune 500 companies, our AI automation agency provides tailored automation solutions 
               that drive efficiency, reduce costs, and accelerate growth across all industries.
             </p>
           </div>
@@ -79,9 +79,9 @@ export default function SolutionsPage() {
       <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center mb-16">
-            <h2 className="text-base font-semibold leading-7 text-primary-600">Industry Solutions</h2>
+            <h2 className="text-base font-semibold leading-7 text-primary-600">AI Automation Solutions</h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl">
-              Tailored automation for your business
+              Custom AI automation for your business
             </p>
           </div>
           
@@ -126,8 +126,8 @@ export default function SolutionsPage() {
               Don't see your industry?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-              We work with businesses across all sectors. Contact our team to discuss how 
-              Bravos Automation can transform your specific industry challenges.
+              Our AI automation agency works with businesses across all sectors. Contact our team to discuss how 
+              we can transform your specific industry challenges with custom automation solutions.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link href="/contact" className="btn-primary text-lg px-8 py-4">

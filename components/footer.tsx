@@ -12,10 +12,10 @@ import {
 
 const navigation = {
   solutions: [
-    { name: 'Workflow Automation', href: '/solutions' },
-    { name: 'Data Processing', href: '/solutions' },
-    { name: 'AI Integration', href: '/solutions' },
-    { name: 'Enterprise Solutions', href: '/solutions' },
+    { name: 'AI Workflow Automation', href: '/solutions' },
+    { name: 'Business Process Automation', href: '/solutions' },
+    { name: 'Custom AI Solutions', href: '/solutions' },
+    { name: 'Enterprise Automation', href: '/solutions' },
   ],
   company: [
     { name: 'About', href: '/about' },
@@ -59,8 +59,8 @@ export function Footer() {
           <div className="space-y-8">
             <Logo className="h-8 w-8 text-primary-600" showText={true} />
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-              Transforming businesses worldwide with intelligent automation solutions. 
-              Join thousands of companies streamlining their operations with AI.
+              Our AI automation agency transforms businesses worldwide with intelligent automation solutions. 
+              Join thousands of companies streamlining their operations with AI-powered workflows.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -79,7 +79,7 @@ export function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
-                  Solutions
+                  AI Automation Solutions
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.solutions.map((item) => (
@@ -137,7 +137,7 @@ export function Footer() {
                 <div className="mt-6 space-y-4">
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <Mail className="h-4 w-4 text-primary-600" />
-                    <span>hello@bravosautomations.io</span>
+                    <span>hello@ai-automation-agency.com</span>
                   </div>
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <Phone className="h-4 w-4 text-primary-600" />
@@ -161,7 +161,7 @@ export function Footer() {
                 Stay updated
               </h3>
               <p className="mt-2 text-sm leading-6 text-gray-600 dark:text-gray-300">
-                Get the latest automation insights and product updates delivered to your inbox.
+                Get the latest AI automation insights and product updates delivered to your inbox.
               </p>
             </div>
             <div className="mt-6 sm:flex sm:max-w-md md:mt-0">
@@ -197,7 +197,7 @@ export function Footer() {
             </p>
           </div>
           <p className="mt-8 text-xs leading-5 text-gray-500 dark:text-gray-400 md:order-1 md:mt-0">
-            &copy; 2025 Bravos Automations, Inc. All rights reserved.
+            &copy; 2025 AI Automation Agency, Inc. All rights reserved.
           </p>
         </div>
       </div>
