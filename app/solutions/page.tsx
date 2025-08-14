@@ -68,7 +68,7 @@ export default function SolutionsPage() {
               <span className="gradient-text">Every Industry</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
-              From startups to Fortune 500 companies, our AI automation agency provides tailored automation solutions 
+              From startups to Fortune 500 companies, our AI automation company provides tailored automation solutions 
               that drive efficiency, reduce costs, and accelerate growth across all industries.
             </p>
           </div>
@@ -126,7 +126,7 @@ export default function SolutionsPage() {
               Don't see your industry?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-400">
-              Our AI automation agency works with businesses across all sectors. Contact our team to discuss how 
+              Our AI automation company works with businesses across all sectors. Contact our team to discuss how 
               we can transform your specific industry challenges with custom automation solutions.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">

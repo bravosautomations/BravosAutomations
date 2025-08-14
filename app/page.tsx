@@ -17,8 +17,8 @@ import {
 import { type Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'AI Automation Agency | Custom AI Workflow Solutions for Any Business',
-  description: 'AI automation agency helping businesses streamline workflows, boost productivity, and increase revenue with intelligent automation solutions tailored to your needs.',
+  title: 'Bravos Automations | Custom AI Workflow Solutions for Any Business',
+  description: 'Bravos Automations helping businesses streamline workflows, boost productivity, and increase revenue with intelligent automation solutions tailored to your needs.',
 }
 
 const features = [
@@ -61,27 +61,6 @@ const stats = [
   { name: 'Customer Satisfaction', value: '99.9%' },
 ]
 
-const testimonials = [
-  {
-    content: "This AI automation agency revolutionized our customer service operations. Response times dropped from 24 hours to under 2 hours, and customer satisfaction scores increased by 40%.",
-    author: "David Kim",
-    role: "Director of Operations, GlobalRetail",
-    rating: 5,
-  },
-  {
-    content: "The intelligent automation platform exceeded our expectations. We automated 200+ processes in just 3 months, saving our team over 15,000 hours annually.",
-    author: "Lisa Thompson",
-    role: "VP of Technology, TechFlow Solutions",
-    rating: 5,
-  },
-  {
-    content: "This AI automation agency helped us scale our operations without hiring additional staff. The ROI was immediate - we saw a 300% increase in processing capacity within the first quarter.",
-    author: "Marcus Johnson",
-    role: "CEO, ScaleUp Ventures",
-    rating: 5,
-  },
-]
-
 export default function HomePage() {
   return (
     <div className="min-h-screen">
@@ -101,7 +80,7 @@ export default function HomePage() {
             </div>
             
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-6xl lg:text-7xl">
-              AI Automation Agency —{' '}
+              Bravos Automations —{' '}
               <span className="bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent animate-fade-in">
                 Intelligent Workflow Solutions for Any Business
               </span>
@@ -143,10 +122,10 @@ export default function HomePage() {
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                Trusted by businesses worldwide
+                Transforming businesses with intelligent automation
               </h2>
               <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                Our AI automation agency delivers measurable results across every industry
+                Our AI automation platform delivers measurable results across every industry
               </p>
             </div>
             <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
@@ -197,43 +176,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-24 sm:py-32 bg-white dark:bg-gray-900">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-              What our customers say
-            </h2>
-            <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-              Don't just take our word for it. Here's what industry leaders have to say about our AI automation agency.
-            </p>
-          </div>
-          <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="card hover:shadow-xl transition-shadow duration-300 group">
-                <div className="flex gap-x-1 text-primary-500 mb-4">
-                  {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-current" />
-                  ))}
-                </div>
-                <blockquote className="text-gray-900 dark:text-gray-100 text-sm leading-6">
-                  <p>"{testimonial.content}"</p>
-                </blockquote>
-                <figcaption className="mt-6 flex items-center gap-x-4">
-                  <div className="h-10 w-10 rounded-full bg-gradient-to-r from-primary-500 to-purple-500 flex items-center justify-center text-white font-semibold">
-                    {testimonial.author.split(' ').map(n => n[0]).join('')}
-                  </div>
-                  <div>
-                    <div className="font-semibold text-gray-900 dark:text-white">{testimonial.author}</div>
-                    <div className="text-gray-600 dark:text-gray-400 text-sm">{testimonial.role}</div>
-                  </div>
-                </figcaption>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="relative isolate overflow-hidden bg-gradient-to-br from-primary-600 to-purple-700 py-24 sm:py-32">
         <div className="absolute inset-0 bg-black/20"></div>
@@ -243,15 +185,9 @@ export default function HomePage() {
               Ready to transform your business with AI automation?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-100">
-              Join thousands of companies already using our AI automation agency to streamline their operations and boost productivity.
+              Join thousands of companies already using our AI automation platform to streamline their operations and boost productivity.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <Link
-                href="/contact"
-                className="rounded-lg bg-white px-6 py-3 text-lg font-semibold text-primary-600 shadow-lg hover:bg-gray-50 hover:shadow-xl transition-all duration-200 hover:scale-105"
-              >
-                Start Free Trial
-              </Link>
               <Link
                 href="/solutions"
                 className="text-lg font-semibold leading-6 text-white hover:text-primary-100 transition-colors"

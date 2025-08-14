@@ -59,7 +59,7 @@ export function Footer() {
           <div className="space-y-8">
             <Logo className="h-8 w-8 text-primary-600" showText={true} />
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-300">
-              Our AI automation agency transforms businesses worldwide with intelligent automation solutions. 
+              Our AI automation company transforms businesses worldwide with intelligent automation solutions. 
               Join thousands of companies streamlining their operations with AI-powered workflows.
             </p>
             <div className="flex space-x-6">
@@ -137,15 +137,15 @@ export function Footer() {
                 <div className="mt-6 space-y-4">
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <Mail className="h-4 w-4 text-primary-600" />
-                    <span>hello@ai-automation-agency.com</span>
+                    <span>pawan@bravosautomations.io</span>
                   </div>
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <Phone className="h-4 w-4 text-primary-600" />
-                    <span>+1 (555) 123-4567</span>
+                    <span>(226) 505-2213</span>
                   </div>
                   <div className="flex items-center space-x-3 text-sm text-gray-600 dark:text-gray-300">
                     <MapPin className="h-4 w-4 text-primary-600" />
-                    <span>San Francisco, CA</span>
+                    <span>Toronto, Ontario, Canada</span>
                   </div>
                 </div>
               </div>
@@ -197,7 +197,7 @@ export function Footer() {
             </p>
           </div>
           <p className="mt-8 text-xs leading-5 text-gray-500 dark:text-gray-400 md:order-1 md:mt-0">
-            &copy; 2025 AI Automation Agency, Inc. All rights reserved.
+            &copy; 2025 Bravos Automations, Inc. All rights reserved.
           </p>
         </div>
       </div>
