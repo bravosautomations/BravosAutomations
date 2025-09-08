@@ -54,12 +54,7 @@ const features = [
   },
 ]
 
-const stats = [
-  { name: 'Companies Automated', value: '1,000+' },
-  { name: 'Processes Streamlined', value: '10,000+' },
-  { name: 'Time Saved', value: '250K+ hours' },
-  { name: 'Customer Satisfaction', value: '99.9%' },
-]
+// Stats section removed per requirements
 
 export default function HomePage() {
   return (
@@ -116,28 +111,51 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* Investor Relations Section */}
       <section className="py-24 sm:py-32 bg-white dark:bg-gray-900">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:max-w-none">
-            <div className="text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                Transforming businesses with intelligent automation
-              </h2>
-              <p className="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-300">
-                Our AI automation platform delivers measurable results across every industry
-              </p>
-            </div>
-            <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
-              {stats.map((stat, index) => (
-                <div key={stat.name} className="flex flex-col bg-gray-50 dark:bg-gray-800/50 p-8 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200">
-                  <dt className="text-sm font-semibold leading-6 text-gray-600 dark:text-gray-400">{stat.name}</dt>
-                  <dd className="order-first text-3xl font-bold tracking-tight text-gray-900 dark:text-white lg:text-4xl">
-                    {stat.value}
-                  </dd>
-                </div>
-              ))}
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+              Investor Relations, Automated.
+            </h2>
+            <p className="mt-4 text-xl leading-8 text-gray-700 dark:text-gray-300">
+              Less friction. More conversions. Zero guesswork.
+            </p>
+            <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
+              We help capital-raising companies turn investor curiosity into committed capital. From AI-powered investor Q&A to campaign dashboards, CRM integrations, and conversion analytics — our automation systems are designed to increase trust, optimize engagement, and raise more.
+            </p>
+          </div>
+
+          <div className="mx-auto mt-16 max-w-5xl">
+            <dl className="grid grid-cols-1 gap-8 sm:grid-cols-2">
+              <div className="card p-6">
+                <dt className="text-lg font-semibold text-gray-900 dark:text-white">AI Investor Chatbots</dt>
+                <dd className="mt-2 text-gray-600 dark:text-gray-300">24/7 compliant Q&A trained on your filings, webinars, decks.</dd>
+              </div>
+              <div className="card p-6">
+                <dt className="text-lg font-semibold text-gray-900 dark:text-white">Investor Drop-Off Dashboards</dt>
+                <dd className="mt-2 text-gray-600 dark:text-gray-300">See where people disengage and why.</dd>
+              </div>
+              <div className="card p-6">
+                <dt className="text-lg font-semibold text-gray-900 dark:text-white">CRM + Email + SMS Automation</dt>
+                <dd className="mt-2 text-gray-600 dark:text-gray-300">Intelligent follow-ups without manual work.</dd>
+              </div>
+              <div className="card p-6">
+                <dt className="text-lg font-semibold text-gray-900 dark:text-white">Analytics You Can Act On</dt>
+                <dd className="mt-2 text-gray-600 dark:text-gray-300">Weekly reporting with performance insights.</dd>
+              </div>
             </dl>
+
+            <blockquote className="mt-12 text-center text-gray-700 dark:text-gray-300 italic">
+              “If every 1% lift in conversion means $500K more raised, investor experience isn’t optional — it’s strategic.”
+            </blockquote>
+
+            <div className="mt-10 flex items-center justify-center">
+              <Link href="/contact" className="group inline-flex items-center gap-x-2 rounded-lg bg-primary-600 px-6 py-3.5 text-lg font-semibold text-white shadow-lg hover:bg-primary-700 transition-all">
+                Book a Meeting With Us
+                <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
