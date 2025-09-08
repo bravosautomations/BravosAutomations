@@ -69,25 +69,19 @@ export default function AboutPage() {
               </h2>
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
-                  <strong className="text-gray-900 dark:text-gray-100">Pawan Mahal</strong> is the visionary founder and CEO of our AI automation company, 
-                  bringing over a decade of experience in business operations and technology to the world of intelligent automation.
+                  Pawan is the visionary founder and CEO of our AI automation company, bringing over a decade of experience in business operations, investor relations, and intelligent automation.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
-                  Born and raised in Toronto, Ontario, Pawan developed a deep understanding of business operations during his 
-                  extensive career in the technology and business services industry. Working with major Canadian companies and technology firms, 
-                  he witnessed firsthand the inefficiencies that plagued traditional business processes and the transformative 
-                  potential of AI automation technology.
+                  Born and raised in Toronto, Ontario, Pawan developed a deep understanding of business operations during his extensive career in the technology and business services industry. Working with major Canadian companies and technology firms, he witnessed firsthand the inefficiencies that plagued traditional processes — and the transformative potential of AI automation.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
-                  After years of analyzing market trends and identifying the growing need for accessible, intelligent automation 
-                  solutions, Pawan founded our AI automation company in 2025. His vision was clear: to democratize AI automation technology 
-                  and make it accessible to businesses of all sizes, not just Fortune 500 companies with massive IT budgets.
+                  In parallel, Pawan has played a behind-the-scenes role in over $500 million in capital raises across Regulation A+, Reg D 506(b), 506(c), and Reg CF offerings. His insights into investor behavior, data flows, and conversion bottlenecks have helped clients unlock an additional $5M–$10M in capital per raise by optimizing campaign strategy, messaging, and automation.
+                </p>
+                <p className="text-lg leading-8 text-gray-600 dark:text-gray-400 mb-6">
+                  After years of analyzing market trends and identifying the need for accessible automation, Pawan founded our AI automation company in 2025. His vision: to democratize intelligent automation for businesses of all sizes — not just Fortune 500s — and to help capital-raising companies turn complexity into conversion.
                 </p>
                 <p className="text-lg leading-8 text-gray-600 dark:text-gray-400">
-                  With his unique blend of business expertise and technological insight, Pawan has guided our AI automation company 
-                  from a small startup in Toronto to a rapidly growing company serving clients across North America. His 
-                  commitment to innovation, client success, and building a team of world-class automation specialists has 
-                  been the driving force behind the company's remarkable growth and success.
+                  With his unique blend of business, capital markets, and technical expertise, Pawan has guided our company from a small Toronto startup to a growing automation partner trusted across North America. His commitment to client outcomes and innovation continues to drive our momentum.
                 </p>
               </div>
             </div>
@@ -95,7 +89,6 @@ export default function AboutPage() {
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary-500 to-primary-700 p-8 flex items-center justify-center">
                 <div className="text-center text-white">
                   <div className="text-6xl font-bold mb-4">Pawan</div>
-                  <div className="text-2xl font-semibold mb-2">Mahal</div>
                   <div className="text-lg opacity-90">Founder & CEO</div>
                   <div className="text-sm opacity-75 mt-2">Bravos Automations</div>
                 </div>

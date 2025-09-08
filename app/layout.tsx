@@ -71,7 +71,7 @@ export default function RootLayout({
               "foundingDate": "2025",
               "founder": {
                 "@type": "Person",
-                "name": "Pawan Mahal",
+                "name": "Pawan",
                 "jobTitle": "Founder & CEO"
               }
             })
